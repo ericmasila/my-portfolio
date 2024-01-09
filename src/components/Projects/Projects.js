@@ -51,6 +51,17 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Simple shell"
+              description="This project was done as part of ALX course study work.Programmed in C language, it's main aim was to create a simple shell to emulate the well known terminal shells."
+              ghLink="https://github.com/ericmasila/simple_shell"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
